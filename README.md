@@ -25,5 +25,5 @@ This program works. <br>
  walk red light connected to PA0 <br>
 
  ## Some images
- ![Image description]([https://github.com/giangthewalkingman/TrafficLight_FSM/image/fsm_tfc.png](https://github.com/giangthewalkingman/TrafficLight_FSM/blob/master/image/fsm_tfc.png)) <br>
- ![Image description]([https://github.com/giangthewalkingman/TrafficLight_FSM/image/wiring.jpg](https://github.com/giangthewalkingman/TrafficLight_FSM/blob/master/image/wiring.jpg))
+ ![Image description](https://github.com/giangthewalkingman/TrafficLight_FSM/blob/master/image/fsm_tfc.png) <br>
+ ![Image description](https://github.com/giangthewalkingman/TrafficLight_FSM/blob/master/image/wiring.jpg) <br>
