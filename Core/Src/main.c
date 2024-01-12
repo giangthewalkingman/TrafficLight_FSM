@@ -87,6 +87,27 @@ static void MX_GPIO_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+
+// Runs on STM32F103C8T6
+// Use a table implementation of a Moore finite state machine to operate
+// a traffic light.
+// Truong Giang Nguyen
+// Jan 10th, 2024
+//
+// walk button sensor connected to PB5 (1=button pressed)
+// north facing car detector connected to PB4 (1=car present)
+// east facing car detector connected to PB3 (1=car present)
+//
+// east facing red light connected to PA8
+// east facing yellow light connected to PA7
+// east facing green light connected to PA6
+// north facing red light connected to PA5
+// north facing yellow light connected to PA4
+// north facing green light connected to PA3
+// walk blue light connected to PA2
+// walk green light connected to PA1
+// walk red light connected to PA0
+
 struct State {
 	uint32_t out;
 	unsigned long wait;
